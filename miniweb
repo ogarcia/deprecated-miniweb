@@ -13,7 +13,7 @@ import ConfigParser
 
 # Define a prefix for file locations, it must be / in package but in devel
 # time can be defined to . (current dir)
-prefix = "."
+prefix = "/"
 
 # Define install location of templates and static files
 TEMPLATE_PATH.insert(0,prefix+'/usr/share/miniweb/views')
